@@ -6,15 +6,36 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Web testing and troubleshooting</title>
   <style>
-    img {
-      width: 100px;
+    div {
+      width: 250px;
+      height: 250px;
+      border: 1px solid grey;
+      margin: 1em auto;
+      text-align: center;
+      text-transform: uppercase;
+      font-family: sans-serif;
+      line-height: 250px;
+      background:  url('images/star.svg') no-repeat center;
+      background-size: 133px;
     }
+
+    .responsive {
+      background-image: url('images/star_responsive.svg');
+    }
+
   </style>
 </head>
 <body>
 
-<img src="images/star.svg">
-<img src="images/star_responsive.svg">
+<div>
+  div #1
+</div>
+
+<div class="responsive">
+  div #2
+</div>
+
+
 
 </body>
 </html>
